@@ -27,6 +27,7 @@ const CollectionItem = ({item, addItems }) => {
     </div>
 )}
 
+
 const mapDispatchToProps = dispatch => ({
     // addItems: () => dispatch(addItems())
     addItems: item => dispatch(addItems(item))
